@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4QS", "IdentityServer4QS\IdentityServer4QS.csproj", "{A0B7FDDF-39C3-4CC4-BCE4-95E8591500B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4API", "IdentityServer4API\IdentityServer4API.csproj", "{B42DF06B-824A-4C60-82CE-4AE7C20DD07E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4Console", "IdentityServer4Console\IdentityServer4Console.csproj", "{799F2349-116E-4DCC-8CEF-4DBFADB4C890}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4MVC", "IdentityServer4MVC\IdentityServer4MVC.csproj", "{C879B32A-3F78-45C8-81E5-37D9A551E14F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4AspNetID", "IdentityServer4AspNetID\IdentityServer4AspNetID.csproj", "{455AB5EA-83C9-4F43-BF87-2C2F0EFB44C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4JS", "IdentityServer4JS\IdentityServer4JS.csproj", "{2DB396DA-12FA-449B-B52D-2DECE00D2B1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B7FDDF-39C3-4CC4-BCE4-95E8591500B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B7FDDF-39C3-4CC4-BCE4-95E8591500B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B7FDDF-39C3-4CC4-BCE4-95E8591500B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B7FDDF-39C3-4CC4-BCE4-95E8591500B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42DF06B-824A-4C60-82CE-4AE7C20DD07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42DF06B-824A-4C60-82CE-4AE7C20DD07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42DF06B-824A-4C60-82CE-4AE7C20DD07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42DF06B-824A-4C60-82CE-4AE7C20DD07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799F2349-116E-4DCC-8CEF-4DBFADB4C890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799F2349-116E-4DCC-8CEF-4DBFADB4C890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799F2349-116E-4DCC-8CEF-4DBFADB4C890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799F2349-116E-4DCC-8CEF-4DBFADB4C890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C879B32A-3F78-45C8-81E5-37D9A551E14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C879B32A-3F78-45C8-81E5-37D9A551E14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C879B32A-3F78-45C8-81E5-37D9A551E14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C879B32A-3F78-45C8-81E5-37D9A551E14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455AB5EA-83C9-4F43-BF87-2C2F0EFB44C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455AB5EA-83C9-4F43-BF87-2C2F0EFB44C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455AB5EA-83C9-4F43-BF87-2C2F0EFB44C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455AB5EA-83C9-4F43-BF87-2C2F0EFB44C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB396DA-12FA-449B-B52D-2DECE00D2B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB396DA-12FA-449B-B52D-2DECE00D2B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB396DA-12FA-449B-B52D-2DECE00D2B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB396DA-12FA-449B-B52D-2DECE00D2B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C81BE27B-88E7-4447-A6A7-2B12EF72967D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nimccoll.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IdentityServer4API\\IdentityServer4API.csproj
+		SccProjectName1 = IdentityServer4API
+		SccLocalPath1 = IdentityServer4API
+		SccProjectUniqueName2 = IdentityServer4Console\\IdentityServer4Console.csproj
+		SccProjectName2 = IdentityServer4Console
+		SccLocalPath2 = IdentityServer4Console
+		SccProjectUniqueName3 = IdentityServer4QS\\IdentityServer4QS.csproj
+		SccProjectName3 = IdentityServer4QS
+		SccLocalPath3 = IdentityServer4QS
+		SccProjectUniqueName4 = IdentityServer4MVC\\IdentityServer4MVC.csproj
+		SccProjectName4 = IdentityServer4MVC
+		SccLocalPath4 = IdentityServer4MVC
+		SccProjectUniqueName5 = IdentityServer4AspNetID\\IdentityServer4AspNetID.csproj
+		SccProjectName5 = IdentityServer4AspNetID
+		SccLocalPath5 = IdentityServer4AspNetID
+		SccProjectUniqueName6 = IdentityServer4JS\\IdentityServer4JS.csproj
+		SccProjectName6 = IdentityServer4JS
+		SccLocalPath6 = IdentityServer4JS
+	EndGlobalSection
+EndGlobal

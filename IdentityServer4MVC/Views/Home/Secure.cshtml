@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Authentication
+<h1>Secure</h1>
+<h3>User claims</h3>
+<div class="row">
+    <dl>
+        @foreach (var claim in User.Claims)
+            {
+            <dt>@claim.Type</dt>
+                <dd>@claim.Value</dd>
+        }
+        <dt>access token</dt>
+        <dd>@await ViewContext.HttpContext.GetTokenAsync("access_token")</dd>
+
+        <dt>refresh token</dt>
+        <dd>@await ViewContext.HttpContext.GetTokenAsync("refresh_token")</dd>
+    </dl>
+</div>
+<div>@Html.ActionLink("Call API", "CallAPI")</div>
+<div>@Html.ActionLink("Logout", "Logout") </div>
